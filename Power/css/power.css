@@ -1,0 +1,57 @@
+.PowerList{
+	width:700px;
+	overflow-x: hidden;
+	white-space:nowrap;
+}
+
+.PDiv{
+	border:1px solid #BBBCC0;
+	padding: 10px 10px 10px 10px;
+	width: 600px;
+	display: none;
+}
+.login{
+	display: block;
+}
+.fsize{
+	line-height: 44px;
+	cursor: pointer;
+}
+.PName{
+	color: #269ABC;
+	background-image: url(../img/jia.png);  
+	background-repeat: no-repeat;
+	background-position:0px 5px; 
+}
+.PName_login{
+	color: #269ABC;
+	background-image: url(../img/jian.png);  
+	background-repeat: no-repeat;
+	background-position:0px 5px; 
+}
+.NameTitle{
+	margin-left: 32px;
+}
+.OpeList{
+	width:230px;
+	overflow-x: hidden;
+	white-space:nowrap;
+}
+.Ope{
+	border:1px solid #BBBCC0;
+	padding: 10px 10px 10px 10px;
+	width:600px;
+	
+}
+.fl{
+	float: left;
+}
+.div_h{
+	min-height:43px;
+}
+.checkDIV{
+	display: none;
+}
+..checkDIV_block{
+	display: block;
+}

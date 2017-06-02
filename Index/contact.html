@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>壹步网</title>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=u2Bi4yy9jnNyAkaAf4Nr7K38"></script>
+<script src="./js/contact.js"></script>
+
+<link rel="stylesheet" href='./css/contact.css' type="text/css" media="screen" />
+    <link rel="stylesheet" href='./css/main.css' type="text/css" media="screen" />
+</head>
+
+<body>
+<div class="w1200">
+   <div class="logo" style="float: left">
+     <!-- <img src="../Index/images/logo.png" width="300" height="100" alt="logo" />-->
+
+         <!--   <div class="clear"></div>-->
+    </div>
+    <ul class="dh">
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./introduce.html">产品介绍</a></li>
+        <li><a href="./about.html">加入我们</a></li>
+        <li><a style="background:#009148; color:#fff;" href="./contact.html">联系我们</a></li>
+    </ul>
+</div>
+
+<!--<div class="picture_display">
+    <div id="slither_section">
+       &lt;!&ndash; <div class="slither_logo">
+            <img src="images/ss1.png"/>
+        </div>&ndash;&gt;
+        &lt;!&ndash;<div class="slither_down">
+            <a href="#"><img src="images/down1.png" /></a>
+            <a href="#"><img src="images/down2.png" /></a>
+        </div>&ndash;&gt;
+        <div class="phone">
+            <img src="images/phone.png" width="400px" height="550px"/>
+        </div>
+    </div>
+</div>-->
+<div style="margin: 0 auto;width: 600px;height: 200px;margin-top: 50px">
+    <img style="width: 600px;height: 200px" src="./contactImg/联系我们_09.png">
+</div>
+
+<div id="chengdu" style="margin: 0 auto;width: 1000px;height: 560px;margin-top: 50px">
+  <!--  <img style="width: 1000px" src="./contactImg/联系我们_08.png">-->
+</div>
+<div style="margin: 0 auto;width: 660px;height: 30px;margin-top: 20px">
+    <img style="width: 660px" src="./contactImg/联系我们_13.png">
+</div>
+<div id="chongqing" style="margin: 0 auto;width: 1000px;height: 490px;margin-top:50px ">
+ <!--   <img style="width: 1000px" src="./contactImg/联系我们_16.png">-->
+
+</div>
+<div style="margin: 0 auto;width: 750px;height: 40px;margin-top: 20px">
+    <img style="width: 750px" src="./contactImg/联系我们_20.png">
+</div>
+
+
+
+<div style="margin: 0 auto;width: 600px;height: 322px;margin-top: 50px">
+    <div style="float: left;width: 322px">
+        <img style="width: 216px" src="./contactImg/联系我们_24.png">
+        <img style="width: 216px" src="./contactImg/联系我们_28.png">
+    </div>
+    <div style="float: right;margin-top: 43px">
+
+        <img style="width: 270px" src="./contactImg/联系我们_27.png">
+    </div>
+</div>
+<!--<div class="foot">
+    <img src="images/dibu1.png"  style="width: 100%;min-width: 1200px; " />
+
+</div>-->
+</body>
+</html>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("chengdu");
+    var point = new BMap.Point(104.1571740000,30.6344560000);
+    map.centerAndZoom(point, 30);
+    var marker = new BMap.Marker(point);  // 创建标注
+    map.addOverlay(marker);               // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+
+
+</script>
+        <script>
+            var map = new BMap.Map("chongqing");
+            var point = new BMap.Point(106.5338070000,29.6048290000);
+            map.centerAndZoom(point, 30);
+            var marker = new BMap.Marker(point);  // 创建标注
+            map.addOverlay(marker);               // 将标注添加到地图中
+            marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+        </script>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>编辑操作员</title>
+		<!-- Bootstrap core CSS -->
+		<!-- Custom styles for this template -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/dashboard.css" rel="stylesheet">
+
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/power.css"/>
+		<link rel="stylesheet" type="text/css" href="css/DateTimePicker.css" />
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/DateTimePicker.js"></script>
+		<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.1.js"></script>
+		<script src="../public/js/leancloud.js"></script>
+		<script src="js/RolePublic.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/underscore.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/OpeEdit.js"></script>
+        <script src="../public/js/main.js"></script>
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+     <![endif]-->
+	</head>
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Stare Crate</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Search...">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 col-md-2 sidebar">
+					<ul class="nav nav-sidebar">
+						<li class="active"><a href="role.html">角色管理</a></li>
+						<li class="active"><a href="operator.html">操作员管理</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<h2 class="sub-header">编辑操作员</h2>
+					<table  class="table table-striped">
+            	<tr>
+            	  <th>用户名</th>
+            	  <td>
+            	  	<table border="0">                   	
+                    	<tr>
+                    		<td><input id="owner" type="text" name="" value="" style="width:155px;background-color:#C0C0C0" readonly="true"></td>
+                    		<td><div id="Alert" style="color: red;width: 200px; font-size:12px ;"></div></td>
+                    	</tr>
+                    	</table>
+            	  </td>
+            	</tr>
+            	<tr>
+            		<th>角色</th>
+                    	<td>
+            	  			<select id="role" name="role" style="width: 155px;">
+							</select>
+            	 	</td>
+            	</tr>
+            	<tr>
+            	  <th>可操作分拣中心</th>
+            	  <td>
+            	  	<div id="SCenter" class="Ope">
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th>可操作配送中心</th>
+            	  <td>
+            	  	<div id="DCenter" class="Ope div_h">
+            	  	</div>
+            	  </td>
+            	</tr>
+            </table> 
+					<input id="subButton" type="button" class="btn btn-primary" value="提交" onclick="editOpe()">
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap core JavaScript
+================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+
+	</body>
+
+</html>

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body,
+	h1,h2,h3,h4,h5,h6,
+		div,p,form,iframe,fieldset,
+		    dl,dt,dd,ul,li,
+				logend,input,textarea,
+				     span,font{padding:0px;margin:0px;font-family: "微软雅黑", Tahoma;}
+ 
+ul,li{list-style:none;}
+a img,iframe{border:none}
+/*a,button{behavior:url(select.htc)} */
+a:hover{text-decoration:none;}
+a,a:hover{text-decoration:none}
+button{border:none; backgroundcolor:transparent}
+.clear{clear:both;height:0px!important;overflow:hidden;font-size:0px;line-height:0px;}
+
+
+body{background:#fff; margin:0 auto; background-position:center top;}
+.w1200{width:1000px;height: 100px; margin:0 auto}
+.all{width:100%}
+
+/*导航*/
+
+.head{background:#fff; height:100px; width:100%}
+.logo{background:url(../images/logo.png) no-repeat; height:100px; width:300px}
+
+.dh{width:600px; height:100px; float:right}
+.dh li{float:left; width:150px; text-align:center; line-height:100px}
+.dh li a{width:150px; height:100px; font-size:20px; color:#333; text-decoration:none; display:block}
+.dh li a:hover{background:#eee;  font-size:20px}
+
+
+/*板块1*/
+/*
+.sj{background:url(../images/1-01.png) no-repeat; width:810px; height:80px; margin:130px 196px 100px;}
+.tp{background:url(../images/1-02.png) no-repeat; text-align:center; width:1200px; height:572px;}
+*/
+
+/*板块2*/
+ /*.tp2{background:url(../images/banner-02.png) no-repeat; width:100%; min-width: 1200px; height:400px; margin-top:130px}
+ */
+/*板块3*/
+.wh{width:1200px; height:270px; margin:130px auto;}
+/*.wen{background:url(../images/wenhua.png) no-repeat; width:270px; height:270px; float: left}
+*//*.wen:hover{background:url(../images/wenhua.png) no-repeat; width:270px; height:270px}*//*
+.jz{background:url(../images/jiazhi-01.png) no-repeat; width:270px; height:270px; margin-left:40px; float: left}
+.jz:hover{background:url(../images/jiazhi-02.png)}
+
+.linian{background:url(../images/linian-01.png) no-repeat; width:270px; height:270px; margin-left:40px; float: left}
+}
+
+.mubiao{background:url(../images/mubiao-01.png) no-repeat; width:270px; height:270px; margin-left:40px; float: left}
+*/
+/*.jz:hover{background:url(../images/jiazhi-02.png)}
+.linian:hover{background:url(../images/linian-02.png)}
+.mubiao:hover{background:url(../images/mubiao-03.png)}*/
+.foot{/*background:url(../images/dibu.png) no-repeat;*//*width: 100%; height: 450px; min-width: 1200px;  margin-top: 130px*/}
+/*
+.picture_display{
+    */
+/*position:relative;*//*
+
+    background:url("../images/banner(3).png") no-repeat  scroll 50% 0;
+    height:600px;
+
+    min-width:1200px;
+
+    margin-top:20px;
+}
+
+#slither_section{
+    position:relative;
+    width:1200px;
+    */
+/*height:880px;*//*
+
+    margin:0 auto;
+    */
+/*left:700px;*//*
+
+    bottom:-85px;
+    */
+/*border:1px pink solid;*//*
+
+}
+.phone{
+    position:absolute;
+    right:10px;
+}*/
+.picture_display{
+    /*position:relative;*/
+    background:url("../introduceImg/产品介绍_08.png") no-repeat  scroll 50% 0;
+    height:600px;
+
+    min-width:1200px;
+
+    margin-top:20px;
+}
+
+#slither_section{
+    position:relative;
+    width:1200px;
+    /*height:880px;*/
+    margin:0 auto;
+    /*left:700px;*/
+    bottom:-85px;
+    /*border:1px pink solid;*/
+}

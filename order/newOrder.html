@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>星创一步</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../public/css/dashboard.css" rel="stylesheet">
+    <link href="../User/css/Res.css" rel="stylesheet">
+    <script src="../public/js/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn1.lncld.net/static/js/av-mini-0.6.1.js"></script>
+    <script src="../public/js/leancloud.js"></script>
+    <script src="js/check.js"></script>
+    <script src="../public/js/main.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.artwl.thickbox.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="../public/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">星创一步后台管理</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="queryOrder.html">订单查询</a></li>
+                <li><a href="statistics.html">订单统计</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <h2 class="sub-header" style="margin-top: 60px">新建订单</h2>
+            <div class="table-responsive">
+                <table id="orderTable" class="table table-striped">
+                    <tr>
+                        <th>订单店铺</th>
+                        <td>
+                            <div class="input_div">
+                                <div class="search_input"><input id="store" class="search_input"  name="" value="请输入店铺名称" oninput="OnInput(event,'store')" onclick="if(value==defaultValue){value='' ;this.style.color='#000' } " onBlur="if(!value){value=defaultValue;this.style.color='#999' }"></div>
+                                <div class="search_results">
+                                    <ul id="input_ul">
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2"><span id="user" style="width: 150px;color: red"></span></td>
+                    </tr>
+                    <tr>
+                        <th>所在地址</th>
+                        <td><span id="address" style="width: 150px"></span></td>
+                        <th>所属配送中心</th>
+                        <td><span id="dc" style="width: 150px"></span></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            备注
+                        </th>
+                        <td colspan="3">
+                            <textarea id="remark" cols="100"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <table id="productTable" class="table table-striped">
+                    <tr>
+                        <th>产品类别</th>
+                        <td><select id="type" onchange="editProduct(this)">
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <th>产品名称</th>
+                        <td><select id="product">
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <th>订购数量</th>
+                        <td>
+                            <input id="count" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="button" class="btn btn-success" onclick="newProduct2()">新增</button> </td>
+                    </tr>
+                </table>
+                <table id="orderDetail" class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>订单详情</th>
+                    </tr>
+                    <tr>
+                        <th>订单总价</th>
+                        <td colspan="2">
+                            <span id="sumPrice" style="color: red"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>产品名称</th>
+                        <th>产品价格</th>
+                        <th>订购数量</th>
+
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <p style="text-align: center"> <button class="btn btn-danger" onclick="newOrder2()">提交订单</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

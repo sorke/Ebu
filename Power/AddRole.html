@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>增加角色</title>
+		<!-- Bootstrap core CSS -->
+		<!-- Custom styles for this template -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/dashboard.css" rel="stylesheet">
+
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/power.css"/>
+		<link rel="stylesheet" type="text/css" href="css/DateTimePicker.css" />
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/DateTimePicker.js"></script>
+		<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.1.js"></script>
+		<script src="../public/js/leancloud.js"></script>
+		<script src="js/RolePublic.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/RoleAdd.js"></script>
+        <script src="../public/js/main.js"></script>
+        
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+     <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Stare Crate</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Search...">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 col-md-2 sidebar">
+					<ul class="nav nav-sidebar">
+						<li class="active"><a href="role.html">角色管理</a></li>
+						<li class="active"><a href="operator.html">操作员管理</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<h2 class="sub-header">新增角色</h2>
+					<table  class="table table-striped">
+            	<tr>
+            	  <th>角色名称</th><td width="800px"><input id="roleName" type="text" style="width: 155px;"></td>
+            	</tr>
+                <tr>
+            	  <th>权限：</th><td></td>
+            	</tr>
+            	<tr>
+            	  <th><div class="PName_login fsize" onclick="change('login',this)"><span class="NameTitle">登录权限</span></div></th>
+            	  <td>
+            	  	<div id="login" class="PDiv login"><input type="checkbox" name="login" id="" value="1" checked/> 后台登录</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="order PName fsize" onclick="change('order',this)"><span class="NameTitle">订单管理</span></div></th>
+            	  <td>
+            	  	<div id="order" class="PDiv">
+            	  		<input type="checkbox" name="order" id="" value="all" onclick="SelectGroup(this,'order')" /> 全选<br />
+            	  		<input type="checkbox" name="order" id="" value="100" /> 订单管理(菜单栏)<br />
+            	  		<input type="checkbox" name="order" id="" value="110" /> 订单查询
+            	  		<input type="checkbox" name="order" id="" value="111" /> 新建订单
+            	  		<input type="checkbox" name="order" id="" value="112" /> 删除订单
+            	  		<input type="checkbox" name="order" id="" value="113" /> 编辑订单
+            	  		<input type="checkbox" name="order" id="" value="114" /> 产看订单
+            	  		<input type="checkbox" name="order" id="" value="115" /> 订单客户信息浏览/查看
+            	  		<input type="checkbox" name="order" id="" value="116" /> 分拣打印
+            	  		<input type="checkbox" name="order" id="" value="117" /> 详情打印<br />
+            	  		<input type="checkbox" name="order" id="" value="130" /> 订单统计
+            	  		<input type="checkbox" name="order" id="" value="131" /> 订单数量统计
+            	  		<input type="checkbox" name="order" id="" value="132" /> 分拣中心订货数量统计
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="product PName fsize" onclick="change('product',this)"><span class="NameTitle">产品管理</span></div></th>
+            	  <td>
+            	  	<div id="product" class="PDiv">
+            	  		<input type="checkbox" name="product" id="" value="all" onclick="SelectGroup(this,'product')"/> 全选<br />
+            	  		<input type="checkbox" name="product" id="" value="200" /> 产品管理(菜单栏)<br />
+            	  		<input type="checkbox" name="product" id="" value="210" /> 产品类别管理
+            	  		<input type="checkbox" name="product" id="" value="211" /> 新增产品类别
+            	  		<input type="checkbox" name="product" id="" value="212" /> 编辑产品类别
+            	  		<input type="checkbox" name="product" id="" value="213" /> 删除产品类别<br />
+            	  		<input type="checkbox" name="product" id="" value="220" /> 产品管理(模块)
+            	  		<input type="checkbox" name="product" id="" value="221" /> 增加产品
+            	  		<input type="checkbox" name="product" id="" value="222" /> 编辑产品
+            	  		<input type="checkbox" name="product" id="" value="223" /> 删除产品<br />
+            	  		<input type="checkbox" name="product" id="" value="230" /> 产品价格管理
+            	  		<input type="checkbox" name="product" id="" value="231" /> 新增产品价格
+            	  		<input type="checkbox" name="product" id="" value="232" /> 编辑产品价格
+            	  		<input type="checkbox" name="product" id="" value="233" /> 删除产品价格
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="Batch PName fsize" onclick="change('Batch',this)"><span class="NameTitle">批次管理</span></div></th>
+            	  <td>
+            	  	<div id="Batch" class="PDiv">
+            	  		<input type="checkbox" name="Batch" id="" value="all" onclick="SelectGroup(this,'Batch')" /> 全选<br />
+            	  		<input type="checkbox" name="Batch" id="" value="310" /> 批次管理(菜单栏)<br />
+            	  		<input type="checkbox" name="Batch" id="" value="311" /> 新增批次
+            	  		<input type="checkbox" name="Batch" id="" value="312" /> 编辑批次
+            	  		<input type="checkbox" name="Batch" id="" value="313" /> 删除批次
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="user PName fsize" onclick="change('user',this)"><span class="NameTitle">用户管理</span></div></th>
+            	  <td>
+            	  	<div id="user" class="PDiv">
+            	  		<input type="checkbox" name="user" id="" value="all"  onclick="SelectGroup(this,'user')"/> 全选<br />
+            	  		<input type="checkbox" name="user" id="" value="400" /> 用户管理(菜单栏)<br />
+            	  		<input type="checkbox" name="user" id="" value="410" /> 用户账号管理
+            	  		<input type="checkbox" name="user" id="" value="411" /> 增加用户
+            	  		<input type="checkbox" name="user" id="" value="412" /> 编辑用户
+            	  		<input type="checkbox" name="user" id="" value="413" /> 删除用户<br />
+            	  		<input type="checkbox" name="user" id="" value="420" /> 商铺管理
+            	  		<input type="checkbox" name="user" id="" value="421" /> 增加店铺
+            	  		<input type="checkbox" name="user" id="" value="422" /> 编辑店铺
+            	  		<input type="checkbox" name="user" id="" value="423" /> 删除店铺<br />
+            	  		<input type="checkbox" name="user" id="" value="430" /> 店铺操作员管理<br />
+            	  		<input type="checkbox" name="user" id="" value="440" /> 店铺分组管理<br />
+            	  		<input type="checkbox" name="user" id="" value="450" /> 业务员管理
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="Delivery PName fsize" onclick="change('Delivery',this)"><span class="NameTitle">物流管理</span></div></th>
+            	  <td>
+            	  	<div id="Delivery" class="PDiv">
+            	  		<input type="checkbox" name="Delivery" id="" value="all" onclick="SelectGroup(this,'Delivery')" /> 全选<br />
+            	  		<input type="checkbox" name="Delivery" id="" value="500" /> 物流管理(菜单栏)<br />
+            	  		<input type="checkbox" name="Delivery" id="" value="510" /> 物流路线
+            	  		<input type="checkbox" name="Delivery" id="" value="511" /> 新增线路
+            	  		<input type="checkbox" name="Delivery" id="" value="512" /> 编辑线路
+            	  		<input type="checkbox" name="Delivery" id="" value="513" /> 删除线路<br />
+            	  		<input type="checkbox" name="Delivery" id="" value="520" /> 物流人员
+            	  		<input type="checkbox" name="Delivery" id="" value="521" /> 新增物流人员
+            	  		<input type="checkbox" name="Delivery" id="" value="522" /> 编辑物流人员
+            	  		<input type="checkbox" name="Delivery" id="" value="523" /> 删除物流人员
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="SortingOrder PName fsize" onclick="change('SortingOrder',this)"><span class="NameTitle">工单管理</span></div></th>
+            	  <td>
+            	  	<div id="SortingOrder" class="PDiv">
+            	  		<input type="checkbox" name="SortingOrder" id="" value="all" onclick="SelectGroup(this,'SortingOrder')"/> 全选<br />
+            	  		<input type="checkbox" name="SortingOrder" id="" value="610" /> 工单管理(菜单栏)<br />
+            	  		<input type="checkbox" name="SortingOrder" id="" value="611" /> 新增工单
+            	  		<input type="checkbox" name="SortingOrder" id="" value="612" /> 编辑工单
+            	  		<input type="checkbox" name="SortingOrder" id="" value="613" /> 删除工单
+            	  		<input type="checkbox" name="SortingOrder" id="" value="614" /> 打印工单
+            	  		<input type="checkbox" name="SortingOrder" id="" value="615" /> 打印订单
+            	  	</div>
+            	  </td>
+            	</tr>
+            	<tr>
+            	  <th><div class="power PName fsize" onclick="change('power',this)"><span class="NameTitle">权限管理</span></div></th>
+            	  <td>
+            	  	<div id="power" class="PDiv">
+            	  		<input type="checkbox" name="power" id="" value="all" onclick="SelectGroup(this,'power')"/> 全选<br />
+            	  		<input type="checkbox" name="power" id="" value="700" /> 权限管理(菜单栏)<br />
+            	  		<input type="checkbox" name="power" id="" value="710" /> 角色管理
+            	  		<input type="checkbox" name="power" id="" value="720" /> 操作员管理
+            	  	</div>
+            	  </td>
+            	</tr>
+            </table> 
+					<input id="subButton" type="button" class="btn btn-primary" value="提交" onclick="addRole()">
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap core JavaScript
+================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+	</body>
+</html>

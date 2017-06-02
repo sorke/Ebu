@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca284603-9e83-486e-b2e4-42b8a82020c3" name="默认的" comment="" />
+    <ignored path="StarCreate.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="StarCreate" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ProductAdd.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/ProductAdd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7163">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queryOrder.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/queryOrder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="12" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-6.7222223" vertical-offset="1005" max-vertical-offset="8497">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#1;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newOrder.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/newOrder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queryOrder.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order/js/queryOrder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="153" selection-start="3737" selection-end="3737" vertical-scroll-proportion="0.5437063" vertical-offset="2415" max-vertical-offset="15283">
+              <folding>
+                <marker date="1449554452956" expanded="true" signature="3651:3737" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="3784:3837" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="3957:3970" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="4033:4073" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="4122:4227" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="4311:4326" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="4370:4388" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="4599:4659" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="4706:4759" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="4879:4892" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="4955:4995" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="5044:5149" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="5233:5248" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="5292:5310" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="8882:8946" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="9011:9023" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="9120:9150" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="9239:9250" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="9515:9604" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="9669:9681" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="9778:9808" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="9897:9908" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="12164:12228" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="12289:12301" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="12394:12424" placeholder="..." />
+                <marker date="1449554452956" expanded="true" signature="12506:12517" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="12762:12851" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="12912:12924" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="13017:13047" placeholder="..." />
+                <marker date="1449554452956" expanded="false" signature="13129:13140" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leancloud.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/leancloud.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="5" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="754">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/js/check.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="29" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="21721">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="51" selection-start="6420" selection-end="6429" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="15718">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistics.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/js/statistics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="53" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.0" vertical-offset="2059" max-vertical-offset="6032">
+              <folding>
+                <marker date="1447728191913" expanded="false" signature="6873:6891" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeliveryRouteList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeliveryRoute/js/DeliveryRouteList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4437" max-vertical-offset="7018">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistics.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/statistics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5916">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Htest/test.js" />
+        <option value="$PROJECT_DIR$/DeliveryRoute/DeliveryRouteList.html" />
+        <option value="$PROJECT_DIR$/SortingOrder/SortingOrderList.html" />
+        <option value="$PROJECT_DIR$/BatchTable/indexAdd.html" />
+        <option value="$PROJECT_DIR$/public/js/indexEdit.js" />
+        <option value="$PROJECT_DIR$/public/js/indexAdd.js" />
+        <option value="$PROJECT_DIR$/ProductPrice/ProductPriceList.html" />
+        <option value="$PROJECT_DIR$/public/js/ProductPriceAdd.js" />
+        <option value="$PROJECT_DIR$/BatchTable/index.html" />
+        <option value="$PROJECT_DIR$/public/js/index.js" />
+        <option value="$PROJECT_DIR$/Index/js/index.js" />
+        <option value="$PROJECT_DIR$/public/js/ProductPriceList.js" />
+        <option value="$PROJECT_DIR$/DeliveryRoute/js/DeliveryRouteList.js" />
+        <option value="$PROJECT_DIR$/Power/AddRole.html" />
+        <option value="$PROJECT_DIR$/Power/AddOpe.html" />
+        <option value="$PROJECT_DIR$/Power/OpeEdit.html" />
+        <option value="$PROJECT_DIR$/Power/operator.html" />
+        <option value="$PROJECT_DIR$/Power/role.html" />
+        <option value="$PROJECT_DIR$/Power/RoleEdit.html" />
+        <option value="$PROJECT_DIR$/SortingOrder/js/SortingOrderList.js" />
+        <option value="$PROJECT_DIR$/SortingOrder/SortingOrderAdd.html" />
+        <option value="$PROJECT_DIR$/SortingOrder/js/SortingOrderAdd.js" />
+        <option value="$PROJECT_DIR$/User/ShowUserJoinStore.html" />
+        <option value="$PROJECT_DIR$/User/AddUserJoinStore.html" />
+        <option value="$PROJECT_DIR$/User/EditUserJoinStore.html" />
+        <option value="$PROJECT_DIR$/public/js/login.js" />
+        <option value="$PROJECT_DIR$/Index/css/about.css" />
+        <option value="$PROJECT_DIR$/Index/css/contact.css" />
+        <option value="$PROJECT_DIR$/Index/about.html" />
+        <option value="$PROJECT_DIR$/Index/css/main.css" />
+        <option value="$PROJECT_DIR$/Index/test.html" />
+        <option value="$PROJECT_DIR$/Index/js/chengdu.html" />
+        <option value="$PROJECT_DIR$/Index/chengdu.html" />
+        <option value="$PROJECT_DIR$/Index/css/introduce.css" />
+        <option value="$PROJECT_DIR$/Index/introduce.html" />
+        <option value="$PROJECT_DIR$/Index/css/yibu.css" />
+        <option value="$PROJECT_DIR$/Index/index.html" />
+        <option value="$PROJECT_DIR$/Index/contact.html" />
+        <option value="$PROJECT_DIR$/public/js/ProductTypeList.js" />
+        <option value="$PROJECT_DIR$/ProductType/ProductTypeAdd.html" />
+        <option value="$PROJECT_DIR$/ProductType/ProductTypeList.html" />
+        <option value="$PROJECT_DIR$/public/js/ProductTypeAdd.js" />
+        <option value="$PROJECT_DIR$/htdocs/js/ShowRes.js" />
+        <option value="$PROJECT_DIR$/htdocs/css/product.css" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/htdocs/product.html" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/htdocs/js/ShowPro.js" />
+        <option value="$PROJECT_DIR$/public/js/leancloud.js" />
+        <option value="$PROJECT_DIR$/order/queryOrder.html" />
+        <option value="$PROJECT_DIR$/order/js/queryOrder.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StarCreate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StarCreate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StarCreate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StarCreate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="di" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\wamp\www\xingchuang\1\Index\js" />
+      <recent name="D:\wamp\wamp\www\xingchuang\1\Index\images" />
+      <recent name="D:\wamp\wamp\www\xingchuang\1" />
+      <recent name="D:\wamp\wamp\www\StarCreate\public\js" />
+      <recent name="D:\wamp\wamp\www\StarCreate\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xingchuang\1\DeliveryRoute\js" />
+      <recent name="C:\Users\liangyi\Desktop\StarCreate" />
+      <recent name="D:\wamp\wamp\www\StarCreate\BatchTable" />
+      <recent name="D:\wamp\wamp\www\StarCreate\public\css" />
+      <recent name="D:\wamp\wamp\www\StarCreate" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca284603-9e83-486e-b2e4-42b8a82020c3" name="默认的" comment="" />
+      <created>1441176127939</created>
+      <updated>1441176127939</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Power/role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="886" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="2610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Power/RoleEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="7" selection-start="1117" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="6090" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="7" selection-start="5058" selection-end="5058" vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="6438" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/ProEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="24" selection-start="4281" selection-end="4281" vertical-scroll-proportion="0.0" vertical-offset="3103" max-vertical-offset="4640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/ShowUserJoinStore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="895" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="2842" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/AddUserJoinStore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="1003" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="3335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/EditUserJoinStore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="941" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="3335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="627" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="2871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="2813" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="297" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="3596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="2" selection-start="567" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="841" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/ResEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/ResAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0" vertical-offset="29" max-vertical-offset="5713" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="8" selection-start="1427" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="1059" max-vertical-offset="3741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/css/introduce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="20" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0" vertical-offset="2560" max-vertical-offset="3364" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="37" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductPriceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="5" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="7975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductTypeList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="13" selection-start="2344" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="2436" max-vertical-offset="4263" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductPriceAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="16" selection-start="8511" selection-end="8511" vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="9947" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/indexEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="37" selection-start="5785" selection-end="5785" vertical-scroll-proportion="0.0" vertical-offset="9309" max-vertical-offset="20822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortingOrder/SortingOrderAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="277" column="16" selection-start="9325" selection-end="9325" vertical-scroll-proportion="-0.0" vertical-offset="8033" max-vertical-offset="10730" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductType/ProductTypeAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="58" selection-start="3520" selection-end="3520" vertical-scroll-proportion="0.0" vertical-offset="2552" max-vertical-offset="3451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductTypeAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="17" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="2718" max-vertical-offset="8439" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="858" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="3161" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="174" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/Res.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="1" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.6529915" vertical-offset="2721" max-vertical-offset="3306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="444" column="11" selection-start="11961" selection-end="11961" vertical-scroll-proportion="0.0" vertical-offset="12535" max-vertical-offset="13108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6322" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductType/ProductTypeList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="46" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0" vertical-offset="1218" max-vertical-offset="3190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="41" selection-start="3227" selection-end="3227" vertical-scroll-proportion="0.0" vertical-offset="2436" max-vertical-offset="3393" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/js/ShowRes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="415" column="59" selection-start="12291" selection-end="12291" vertical-scroll-proportion="0.0" vertical-offset="11708" max-vertical-offset="12673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/css/yibu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="18" selection-start="2910" selection-end="2910" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="2842" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="3" selection-start="1666" selection-end="1692" vertical-scroll-proportion="0.0" vertical-offset="3620" max-vertical-offset="4437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="89" selection-start="4207" selection-end="4207" vertical-scroll-proportion="0.0" vertical-offset="2262" max-vertical-offset="3625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/js/ShowPro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="98" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="22417" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="-0.0" vertical-offset="348" max-vertical-offset="3016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/chengdu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="607" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="841" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortingOrder/js/SortingOrderList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="23" selection-start="4611" selection-end="4683" vertical-scroll-proportion="0.0" vertical-offset="2705" max-vertical-offset="7279" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortingOrder/js/SortingOrderAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="853" column="23" selection-start="32724" selection-end="32740" vertical-scroll-proportion="0.0" vertical-offset="24455" max-vertical-offset="25114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/js/statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="53" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6032">
+          <folding>
+            <marker date="1447728191913" expanded="false" signature="6873:6891" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeliveryRoute/js/DeliveryRouteList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4437" max-vertical-offset="7018">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1392" max-vertical-offset="5916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/js/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="29" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="21721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/leancloud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="51" selection-start="6420" selection-end="6429" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="15718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/newOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/queryOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="12" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-6.7222223" vertical-offset="1005" max-vertical-offset="8497">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/js/queryOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="153" selection-start="3737" selection-end="3737" vertical-scroll-proportion="0.5437063" vertical-offset="2415" max-vertical-offset="15283">
+          <folding>
+            <marker date="1449554452956" expanded="true" signature="3651:3737" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="3784:3837" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="3957:3970" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="4033:4073" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="4122:4227" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="4311:4326" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="4370:4388" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="4599:4659" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="4706:4759" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="4879:4892" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="4955:4995" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="5044:5149" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="5233:5248" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="5292:5310" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="8882:8946" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="9011:9023" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="9120:9150" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="9239:9250" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="9515:9604" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="9669:9681" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="9778:9808" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="9897:9908" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="12164:12228" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="12289:12301" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="12394:12424" placeholder="..." />
+            <marker date="1449554452956" expanded="true" signature="12506:12517" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="12762:12851" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="12912:12924" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="13017:13047" placeholder="..." />
+            <marker date="1449554452956" expanded="false" signature="13129:13140" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

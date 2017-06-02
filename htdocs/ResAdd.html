@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>增加店铺</title>
+		<!-- Bootstrap core CSS -->
+		<!-- Custom styles for this template -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/dashboard.css" rel="stylesheet">
+
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/DateTimePicker.css" />
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/DateTimePicker.js"></script>
+		<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.1.js"></script>
+		<script src="../public/js/leancloud.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/ResAdd.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#dtBox").DateTimePicker({
+					dateFormat: "yyyy-MM-dd HH:mm:ss"
+				});
+			});
+		</script>
+		<style type="text/css">
+			.display{
+				visibility: hidden;
+			}
+		</style>
+		<script src="../public/js/main.js"></script>
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+     <![endif]-->
+	</head>
+
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Stare Crate</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Search...">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 col-md-2 sidebar">
+					<ul class="nav nav-sidebar">
+						<li class="active"><a href="index.html">店铺管理</a></li>
+						<li class="active"><a href="product.html">产品管理</a></li>
+					</ul>
+
+				</div>
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<h2 class="sub-header">新增店铺</h2>
+					<table class="table table-striped">
+						<tr>
+							<th>店铺名称</th>
+							<td>
+								<input id="storeName" type="text" style="width: 155px;">
+							</td>
+							<th>所属线路</th>
+							<td>
+								<select name="storeRoute" style="width: 155px;" id="storeRoute">
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>店铺业态</th>
+							<td>
+								<select name="storeType" style="width: 155px;" id="storeType">
+								</select>
+							</td>
+							<th>店铺地址</th>
+							<td>
+								<input id="storeAddress" type="text" style="width: 155px;">
+							</td>
+						</tr>
+						<tr>
+							<th>配送中心</th>
+							<td>
+								<select name="storeDC" style="width: 155px;" id="storeDC">
+
+								</select>
+							</td>
+							<th>所属城市</th>
+							<td>
+								<select name="StoCity" style="width: 155px;" id="city">
+
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>联系方式</th>
+							<td>
+								<input id="storeContact" type="text" style="width: 155px;">
+							</td>
+							<th>联系人名</th>
+							<td>
+								<input id="contactName" type="text" style="width: 155px;">
+							</td>
+						</tr>
+
+						<tr>
+							<th>店铺图片</th>
+							<td>
+								<div><img id="ImgPr" width="155" height="125" /></div>
+								<input id="storeImage" type="file">
+							</td>
+							<th>管理员</th>
+							<td>
+								<table border="0">
+									<tr>
+										<td>
+											<input id="owner" type="text" name="" value="请输入用户名" oninput="OnInput(event,'owner')" onclick="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999;width: 155px;" "></td>
+                    <td>
+                    	<div id="Alert" style="color: red;width: 100px; font-size:12px ; ">请输入11位手机号</div>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+							</tr>
+							<tr>                 
+                <th>授予账期(天)</th><td><input type="text" id="paymentDays"  style="width: 155px; " ></td>
+                <th>业务员</th>
+                <td>
+                	<table border="0 ">
+									<tr>
+										<td>
+											<input id="salesman" type="text" name="" value="请输入业务员电话 " oninput="OnInput(event, 'sale') " onclick="if(value==defaultValue){value='' ;this.style.color='#000' } " onBlur="if(!value){value=defaultValue;this.style.color='#999' }
+											" style="color:#999;width: 155px; "">
+										</td>
+										<td>
+											<div id="saleAlert" style="color: red;width: 100px; font-size:12px ;">请输入11位手机号</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<th>最早收货时间</th>
+							<td>
+								<input type="text" id="earlyTime" style="width: 155px;" data-field="time" readonly>
+							</td>
+							<th>最晚收货时间</th>
+							<td>
+								<input type="text" id="latestTime" style="width: 155px;" data-field="time" readonly>
+							</td>
+							<div id="dtBox"></div>
+						</tr>
+						<tr>
+							<th>加入分组</th>
+							<td >
+								<div id="storeGroups" class="storeGroups">
+								
+								</div>
+							</td>
+							<th>店铺编号(默认不填)</th>
+							<td >
+								<input type="text" id="storeNumber" style="width: 155px;" />
+							</td>
+						</tr>
+						<tr>
+							<th>付款方式</th>
+							<td >
+								<input type="radio" name="paymentTerm"  value="1" checked/>网上付款
+								<input type="radio" name="paymentTerm"  value="2" />货到付款
+							</td>
+							<th class="display">现金收款方</th>
+							<td class="display">
+								<input type="radio" name="payeeTerm"  value="2" checked/>配送收费
+								<input type="radio" name="payeeTerm"  value="3" />业务收费
+							</td>
+						</tr>
+					</table>
+					<input id="subButton" type="button" class="btn btn-primary" value="提交 " onclick="addRes()">
+				</div>
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+
+	</body>
+
+</html>
